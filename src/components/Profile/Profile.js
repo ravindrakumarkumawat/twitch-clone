@@ -1,4 +1,5 @@
 import React from 'react'
+import RecentItem from '../RecentItem/RecentItem'
 import './Profile.css'
 
 const Profile = () => {
@@ -26,6 +27,34 @@ const Profile = () => {
         <h2>Videos</h2>
         <h2><i className="fas fa-arrow-up"></i></h2>
         <h2>Chat</h2>
+      </div>
+
+      <div className="profile__recent">
+        <h2>Recent broadcasts</h2>
+
+        <div className="profile__recentItems">
+          <RecentItem 
+            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
+          />
+          <RecentItem 
+            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
+          />
+          <RecentItem 
+            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
+          />
+          <RecentItem 
+            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
+          />
+        </div>
+        <div className="profile__categories">
+          <h2>cleverprogrammers recently streamed Categories</h2>
+          <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" alt=""/>
+          <h3>Science & Technology</h3>     
+          </div>
       </div>
     </div>
   )
