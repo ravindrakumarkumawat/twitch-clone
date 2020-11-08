@@ -54,7 +54,7 @@ const Profile = () => {
           <h4>cleverprogrammers recently streamed Categories</h4>
           <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" alt=""/>
           <h5>Science & Technology</h5>     
-          </div>
+        </div>
       </div>
     </div>
   )
