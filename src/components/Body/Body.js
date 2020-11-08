@@ -1,14 +1,14 @@
 import React from 'react'
 import Profile from '../Profile/Profile'
+import Stream from '../Stream/Stream'
 import './Body.css'
 
 const Body = () => {
   return (
     <div className="body">
       <div className="body__left">
+      <Stream />
         <Profile />
-      </div>
-      <div className="body_rightPlaceHolder">
       </div>
     </div>
   )
