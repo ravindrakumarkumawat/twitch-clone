@@ -10,11 +10,11 @@ const Header = () => {
         <img className="header__leftLogo"
           src="https://pngimg.com/uploads/twitch/twitch_PNG6.png"
           alt="twitch logo"/>
-        <h2>Following</h2>
-        <h2>Browse</h2>
+        <h4>Following</h4>
+        <h4>Browse</h4>
         <div className="header__verticalLine"></div>
-        <h2>Esports</h2>
-        <h2>Music</h2>
+        <h4>Esports</h4>
+        <h4>Music</h4>
         <i className="fas fa-ellipsis-h"></i>
       </div>
 
@@ -33,7 +33,7 @@ const Header = () => {
 
           <div className="header__rightBits">
             <i className="fas fa-gem"></i>
-            <h4>Get Bits</h4>            
+            <h5>Get Bits</h5>            
           </div>
           <Avatar />
         </div>
