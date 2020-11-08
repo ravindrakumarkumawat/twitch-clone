@@ -6,11 +6,11 @@ const Profile = () => {
   return (
     <div className="profile">
       <div className="profile__topLeft">
-        <img src="https://yt3.ggpht.com/a/AATXAJydjgDHqK3vz4iHkrPZjHSsjwh1aPsqOwxHCZ_ISA=s88-c-k-c0x00ffffff-no-rj" alt="avatar" />
+        <img src="https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s88-c-k-c0x00ffffff-no-rj" alt="avatar" />
 
         <div className="profile__topLeftDetails">
-          <h2>cleverprogrammer</h2>
-          <h5>820k followers</h5>
+          <h2>freecodecamp</h2>
+          <h5>2.72m followers</h5>
         </div>
       </div>
 
@@ -34,24 +34,24 @@ const Profile = () => {
 
         <div className="profile__recentItems">
           <RecentItem 
-            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            url={"https://www.youtube.com/embed/PkZNo7MFNFg"}
             title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
           />
           <RecentItem 
-            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            url={"https://www.youtube.com/embed/PkZNo7MFNFg"}
             title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
           />
           <RecentItem 
-            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            url={"https://www.youtube.com/embed/PkZNo7MFNFg"}
             title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
           />
           <RecentItem 
-            url={"https://www.youtube.com/embed/-cMqr9HpZ-Y"}
+            url={"https://www.youtube.com/embed/PkZNo7MFNFg"}
             title={"React JS Tutorial for Beginners - Full Course in 12 Hours [2021]"}
           />
         </div>
         <div className="profile__categories">
-          <h4>cleverprogrammers recently streamed Categories</h4>
+          <h4>freecodecamp recently streamed categories</h4>
           <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" alt=""/>
           <h5>Science & Technology</h5>     
         </div>

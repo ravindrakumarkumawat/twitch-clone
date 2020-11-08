@@ -7,8 +7,8 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="sidebar__top">
         <h5>FOLLOW CHANNELS</h5>
-        <Channel avatar="https://yt3.ggpht.com/a/AATXAJydjgDHqK3vz4iHkrPZjHSsjwh1aPsqOwxHCZ_ISA=s88-c-k-c0x00ffffff-no-rj"
-        name="cleverprogrammer"
+        <Channel avatar="https://yt3.ggpht.com/a/AATXAJwFt03RAznOsPwlfo5c1kW1rp-1o3Xgpw9MNreQMQ=s88-c-k-c0x00ffffff-no-rj"
+        name="freecodecamp"
         followers="820k"/>
         <Channel avatar="https://yt3.ggpht.com/a/AATXAJx1mDLn8-L1yG8jIO2yGHvJzqnMZ03dsc3PbNqe=s88-c-k-c0x00ffffff-no-rj"
         name="Codevolution"
