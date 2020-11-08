@@ -5,7 +5,7 @@ import './Body.css'
 const Body = () => {
   return (
     <div className="body">
-      <div className="body--left">
+      <div className="body__left">
         <Profile />
       </div>
       <div className="body_rightPlaceHolder">
