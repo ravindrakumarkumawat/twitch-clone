@@ -9,8 +9,8 @@ const Profile = () => {
         <img src="https://yt3.ggpht.com/a/AATXAJydjgDHqK3vz4iHkrPZjHSsjwh1aPsqOwxHCZ_ISA=s88-c-k-c0x00ffffff-no-rj" alt="avatar" />
 
         <div className="profile__topLeftDetails">
-          <h1>cleverprogrammer</h1>
-          <h3>820k followers</h3>
+          <h2>cleverprogrammer</h2>
+          <h5>820k followers</h5>
         </div>
       </div>
 
@@ -21,16 +21,16 @@ const Profile = () => {
       </div>
 
       <div className="profile__menu">
-        <h2 className="active">Home</h2>
-        <h2>About</h2>
-        <h2>Schedule</h2>
-        <h2>Videos</h2>
-        <h2><i className="fas fa-arrow-up"></i></h2>
-        <h2>Chat</h2>
+        <h4 className="active">Home</h4>
+        <h4>About</h4>
+        <h4>Schedule</h4>
+        <h4>Videos</h4>
+        <h4><i className="fas fa-arrow-up"></i></h4>
+        <h4>Chat</h4>
       </div>
 
       <div className="profile__recent">
-        <h2>Recent broadcasts</h2>
+        <h4>Recent broadcasts</h4>
 
         <div className="profile__recentItems">
           <RecentItem 
@@ -51,9 +51,9 @@ const Profile = () => {
           />
         </div>
         <div className="profile__categories">
-          <h2>cleverprogrammers recently streamed Categories</h2>
+          <h4>cleverprogrammers recently streamed Categories</h4>
           <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" alt=""/>
-          <h3>Science & Technology</h3>     
+          <h5>Science & Technology</h5>     
           </div>
       </div>
     </div>
