@@ -1,3 +1,15 @@
+# Twitch App - Video Streaming App UI
+
+<p align="center">
+<img align="center" alt="GIF" src="https://res.cloudinary.com/diqcnmefm/image/upload/v1604855518/images/twitch_rwjl7g.png" />
+</p>
+
+<p align="center">
+<img align="center" alt="GIF" src="https://res.cloudinary.com/diqcnmefm/image/upload/v1604855518/images/twitch2_bkb14p.png" />
+</p>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
